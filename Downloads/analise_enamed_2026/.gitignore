@@ -1,0 +1,15 @@
+# Ignorar dependências do Node.js (elas são pesadas e o Render instala sozinho)
+node_modules/
+
+# Ignorar arquivos de ambiente e credenciais locais (MUITO IMPORTANTE)
+.env
+credentials.json
+
+# Ignorar logs de erro locais
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignorar arquivos do sistema operacional (Mac/Windows)
+.DS_Store
+Thumbs.db
